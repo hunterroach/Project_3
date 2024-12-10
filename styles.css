@@ -1,0 +1,138 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f5e4d7; /* Light brown for contrast */
+    color: #333; /* Neutral text color */
+}
+
+/* Header Styling */
+header {
+    background-color: #8a5a44; /* Medium brown */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: #4b0082; /* Purple text for emphasis */
+}
+
+header h3 {
+    font-size: 1.2em;
+    font-weight: normal;
+    font-style: italic;
+    color: #3cc47c; /* Green text for tagline */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #a67658; /* Warm brown */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0.8em 0;
+}
+
+nav ul li {
+    margin: 0 1.5em;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text for links */
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3cc47c; /* Bright green for hover effect */
+    text-shadow: 0 0 10px #3cc47c;
+}
+
+/* Section Styling */
+section {
+    padding: 2em;
+    background-color: #ffffff; /* White for readability */
+    margin: 1em auto;
+    border-radius: 8px;
+    max-width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    color: #4b0082; /* Purple for section titles */
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #3cc47c; /* Green underline */
+    padding-bottom: 0.5em;
+    text-align: center;
+    width: 100%;
+}
+
+.section-content {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #8a5a44; /* Medium brown */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #3cc47c; /* Green for social links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #4b0082; /* Purple on hover */
+}
+
+/* Sidebar (if needed) */
+aside {
+    background-color: #a67658; /* Warm brown */
+    color: white;
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 8px;
+    max-width: 80%;
+}
+
+/* Links */
+a {
+    color: #4b0082; /* Purple links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #3cc47c; /* Green hover effect */
+}
